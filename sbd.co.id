@@ -1,0 +1,12 @@
+server {
+    listen 80;
+    server_name  sbd.jamkrindo.com;
+    #root /var/www/html/example.com;
+
+    #if ($http_host != "www.example.com") {
+    #    rewrite ^ www.example.com$request_uri permanent;
+    #}
+
+    #index index.php index.html;
+
+    location / {
